@@ -98,7 +98,7 @@
       }
     });
   }, { rootMargin: '200px 0px' });
-  $$('.reel video').forEach(v => videoIO.observe(v));
+  $$('.reel video, .hero video').forEach(v => videoIO.observe(v));
 
   /* ---------- Portfolio drag + filters ---------- */
   const reel = $('.reel');
